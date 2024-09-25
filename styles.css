@@ -5,6 +5,7 @@ body {
   background-color: #212F3D;
   color: #f7f9f9;
 }
+
 /* Sidebar */
 #sidebar {
   position: fixed;
@@ -18,15 +19,18 @@ body {
   z-index: 1000;
   display: none; /* Sidebar is hidden by default */
 }
+
 #sidebar h3 {
   color: #5dade2;
 }
+
 #sidebar label {
   display: block;
   margin: 5px 0;
   color: #f7f9f9;
   font-size: 0.9em;
 }
+
 #sidebar select,
 #sidebar input {
   width: 100%;
@@ -34,6 +38,7 @@ body {
   font-size: 0.9em;
   padding: 5px;
 }
+
 #sidebar button {
   width: 100%;
   background-color: #3498db;
@@ -43,53 +48,65 @@ body {
   cursor: pointer;
   font-size: 0.9em;
 }
+
 #sidebar button:hover {
   background-color: #5dade2;
 }
+
 /* Navigation Bar */
 nav {
   background-color: #283747;
   padding: 10px 0;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   margin: 0;
 }
+
 nav li {
   margin: 0 20px;
 }
+
 nav a {
   color: #f7f9f9;
   text-decoration: none;
   font-size: 1.1em;
 }
+
 nav a:hover {
   border-bottom: 2px solid #f7f9f9;
 }
+
 /* Main Content */
 main {
   padding: 30px;
 }
+
 .section-header {
   text-align: center;
   margin-bottom: 30px;
 }
+
 .section-header h2 {
   font-size: 2.4em;
   color: #5dade2;
   margin-bottom: 10px;
 }
+
 .section-header p {
   font-size: 1.3em;
   color: #aab7b8;
 }
+
 /* Upload Container */
 .upload-container {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .upload-container input[type="file"],
 .upload-container button {
   padding: 12px 24px;
@@ -100,10 +117,12 @@ main {
   color: #f7f9f9;
   cursor: pointer;
 }
+
 .upload-container button:hover,
 .upload-container input[type="file"]:hover {
   background-color: #3498db;
 }
+
 /* ASCII Container */
 #ascii-container {
   white-space: pre;
@@ -116,11 +135,13 @@ main {
   height: auto;
   text-align: left;
 }
+
 /* Adjust font size and line height dynamically */
 #ascii-container .ascii-art {
   font-size: var(--ascii-font-size, 8px);
   line-height: var(--ascii-line-height, 8px);
 }
+
 /* Rotating Fact Styles */
 #rotating-facts {
   margin-top: 30px;
@@ -128,16 +149,19 @@ main {
   color: #f7f9f9;
   text-align: center;
 }
+
 /* Gallery Styles */
 .gallery-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .gallery-item {
   margin: 12px;
   cursor: pointer;
 }
+
 .gallery-item .ascii-art-thumbnail {
   width: 200px;
   height: 150px;
@@ -150,18 +174,22 @@ main {
   white-space: pre;
   text-align: left;
 }
+
 .gallery-item .ascii-art-thumbnail:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
 }
+
 /* FAQ Section */
 .faq-container h4 {
   color: #5dade2;
 }
+
 .faq-container p {
   margin-bottom: 20px;
   color: #f7f9f9;
 }
+
 /* About Section */
 .about-container {
   max-width: 600px;
@@ -169,14 +197,17 @@ main {
   line-height: 1.6;
   color: #f7f9f9;
 }
+
 /* Responsive Design */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
   }
+
   nav li {
     margin: 10px 0;
   }
+
   /* Sidebar for Mobile */
   #sidebar {
     width: 100%;
